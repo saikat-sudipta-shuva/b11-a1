@@ -1,0 +1,198 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+/*shared style*/
+.btn-primary{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/*nav style*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 100px 0 100px;
+    
+    
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.nav-button{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+}
+
+/*banner*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin:0 80px 0 80px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-pic{
+    width: 460px;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-description{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-banner{
+    background: rgb(0, 106, 80);
+    color: aliceblue;
+}
+
+/**/
+.visions{
+  
+    padding: 55px 5px 55px 5px;
+    margin:5px 80px 5px 80px;
+}
+
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-container{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 15px;
+    padding: 32px;
+}
+
+.vision{
+    margin: 0px 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;    
+}
+
+.vision-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-2{
+    background: rgb(198, 228, 214);
+}
+
+.vision-3{
+    background: rgb(247, 235, 207);
+}
+
+.btn-v-1{
+    background: rgb(84, 144, 245);
+}
+
+.btn-v-2{
+    background: rgb(9, 161, 92);
+}
+
+.btn-v-3{
+    background: rgb(255, 194, 57);
+}
+
+
+/**/
+/* Recent News Section */
+.recent-news {
+    padding: 55px 5px 55px 5px;
+    margin:5px 80px 5px 80px;
+    border-radius: 16px;
+  }
+  
+  .news-card {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .news-image img {
+    width: 408px;
+    height: 320px;
+    border-radius: 24px;
+  }
+  
+  .news-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .news-source img {
+    width: 134px;
+    height: 40px;
+  }
+  
+  .news-date {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 15px;
+  }
+  .news-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  
+.btn-news{
+    background: rgb(0, 106, 80);
+}  
+  .btn-news:hover {
+    background-color: #0ca9ec;
+  }
+  

@@ -37,7 +37,9 @@ nav{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 }
-
+.nav-button:hover{
+  background-color: #c462a5;
+}
 /*banner*/
 .banner{
     display: flex;
@@ -73,6 +75,9 @@ nav{
 .btn-banner{
     background: rgb(0, 106, 80);
     color: aliceblue;
+}
+.btn-banner:hover{
+  background-color: rgb(183, 91, 169);
 }
 
 /**/
@@ -128,13 +133,20 @@ nav{
 .btn-v-1{
     background: rgb(84, 144, 245);
 }
-
+.btn-v-1:hover{
+  background-color: #ec0ca5;
+}
 .btn-v-2{
     background: rgb(9, 161, 92);
 }
-
+.btn-v-2:hover{
+  background-color: #c462a5;
+}
 .btn-v-3{
     background: rgb(255, 194, 57);
+}
+.btn-v-3:hover{
+  background-color: #39c72f;
 }
 
 
@@ -189,10 +201,16 @@ nav{
     margin-bottom: 10px;
   }
   
-.btn-news{
+.btn-bg{
     background: rgb(0, 106, 80);
 }  
-  .btn-news:hover {
+.btn-news-1:hover {
     background-color: #0ca9ec;
-  }
+}
+.btn-news-2:hover {
+  background-color: #39c72f;
+}
+.btn-news-3:hover {
+  background-color: #ec0ca5;
+}
   
